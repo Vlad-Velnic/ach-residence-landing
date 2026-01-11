@@ -14,18 +14,18 @@ import {
 } from "lucide-react";
 
 const amenities = [
-  { icon: Waves, name: "Hot Tub / Jacuzzi", highlight: true },
-  { icon: Wifi, name: "Free High-Speed WiFi", highlight: false },
-  { icon: Snowflake, name: "Air Conditioning", highlight: false },
-  { icon: Car, name: "Free Parking", highlight: false },
-  { icon: PawPrint, name: "Pet Friendly", highlight: false },
-  { icon: Gamepad2, name: "Ping Pong Table", highlight: true },
-  { icon: ChefHat, name: "Fully Equipped Kitchen", highlight: false },
-  { icon: TreePine, name: "Private Garden", highlight: false },
+  { icon: Waves, name: "Ciubăr / Jacuzzi", highlight: true },
+  { icon: Wifi, name: "WiFi Gratuit de Mare Viteză", highlight: false },
+  { icon: Snowflake, name: "Aer Condiționat", highlight: false },
+  { icon: Car, name: "Parcare Gratuită", highlight: false },
+  { icon: PawPrint, name: "Acceptăm Animale de Companie", highlight: false },
+  { icon: Gamepad2, name: "Masă de Ping Pong", highlight: true },
+  { icon: ChefHat, name: "Bucătărie Complet Echipată", highlight: false },
+  { icon: TreePine, name: "Grădină Privată", highlight: false },
   { icon: Tv, name: "Smart TV", highlight: false },
-  { icon: Utensils, name: "BBQ Facilities", highlight: true },
-  { icon: Coffee, name: "Coffee Machine", highlight: false },
-  { icon: Shirt, name: "Washing Machine", highlight: false },
+  { icon: Utensils, name: "Facilități Grătar", highlight: true },
+  { icon: Coffee, name: "Espressor de Cafea", highlight: false },
+  { icon: Shirt, name: "Mașină de Spălat", highlight: false },
 ];
 
 const Amenities = () => {
@@ -35,10 +35,10 @@ const Amenities = () => {
         {/* Heading */}
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Amenities
+            Dotări
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground">
-            Everything You <span className="text-gradient-gold">Need</span>
+            Tot Ce Ai <span className="text-gradient-gold">Nevoie</span>
           </h2>
         </div>
 

@@ -7,10 +7,10 @@ const Location = () => {
         {/* Heading */}
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Location
+            Locație
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground">
-            Find <span className="text-gradient-gold">Us</span>
+            Găsește-<span className="text-gradient-gold">ne</span>
           </h2>
         </div>
 
@@ -25,7 +25,7 @@ const Location = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="ACH Residence Location"
+              title="Locație ACH Residence"
             />
           </div>
 
@@ -35,12 +35,12 @@ const Location = () => {
               <MapPin className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                  Address
+                  Adresă
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Strada Narciselor 2<br />
-                  Răcăciuni, Bacău County<br />
-                  Romania
+                  Răcăciuni, Județul Bacău<br />
+                  România
                 </p>
               </div>
             </div>
@@ -49,11 +49,11 @@ const Location = () => {
               <Plane className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                  Nearest Airport
+                  Cel mai apropiat aeroport
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  George Enescu International Airport (BCM)<br />
-                  <span className="text-primary">11 miles</span> from the property
+                  Aeroportul Internațional "George Enescu" (BCM)<br />
+                  la <span className="text-primary">18 km</span> de proprietate
                 </p>
               </div>
             </div>
@@ -62,11 +62,11 @@ const Location = () => {
               <Clock className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                  Distance to City
+                  Distanța până la oraș
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-primary">20 km</span> from Bacău city center<br />
-                  Peaceful countryside setting
+                  la <span className="text-primary">20 km</span> de centrul orașului Bacău<br />
+                  Cadru liniștit la țară
                 </p>
               </div>
             </div>

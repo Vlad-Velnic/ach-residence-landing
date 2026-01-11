@@ -2,10 +2,10 @@ import { Star, Users, BedDouble, Bath, Ruler } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Users, value: "20", label: "Guests" },
-    { icon: BedDouble, value: "4", label: "Bedrooms" },
-    { icon: Bath, value: "4", label: "Bathrooms" },
-    { icon: Ruler, value: "250m²", label: "Living Space" },
+    { icon: Users, value: "20", label: "Oaspeți" },
+    { icon: BedDouble, value: "4", label: "Dormitoare" },
+    { icon: Bath, value: "4", label: "Băi" },
+    { icon: Ruler, value: "250m²", label: "Spațiu Locuibil" },
   ];
 
   return (
@@ -16,22 +16,22 @@ const About = () => {
           <div className="flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-6 py-3">
             <Star className="w-5 h-5 text-primary fill-primary" />
             <span className="text-primary font-semibold text-lg">10/10</span>
-            <span className="text-muted-foreground">Exceptional Rating</span>
+            <span className="text-muted-foreground">Rating Excepțional</span>
           </div>
         </div>
 
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-gradient-gold">Luxury Living</span>
+            <span className="text-gradient-gold">Trai de Lux</span>
             <br />
-            <span className="text-foreground">in Răcăciuni</span>
+            <span className="text-foreground">în Răcăciuni</span>
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            ACH Residence is a stunning modern villa nestled in the heart of Romania, 
-            designed for unforgettable celebrations. Whether you're planning a birthday party, 
-            anniversary celebration, team building event, or simply a luxurious getaway with 
-            friends and family, our villa offers the perfect setting.
+            ACH Residence este o vilă modernă uluitoare situată în inima României, 
+            concepută pentru celebrări de neuitat. Fie că plănuiești o petrecere de zi de naștere, 
+            o aniversare, un eveniment de team building sau pur și simplu o escapadă luxoasă cu 
+            prietenii și familia, vila noastră oferă cadrul perfect.
           </p>
         </div>
 

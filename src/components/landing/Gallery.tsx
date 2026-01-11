@@ -5,33 +5,33 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 const galleryImages = [
   {
     src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Luxury Villa Exterior",
-    caption: "Stunning Modern Architecture"
+    alt: "Exterior Vilă de Lux",
+    caption: "Arhitectură Modernă Impresionantă"
   },
   {
     src: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Hot Tub Area",
-    caption: "Relaxing Hot Tub Experience"
+    alt: "Zonă Ciubăr",
+    caption: "Experiență Relaxantă la Ciubăr"
   },
   {
     src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Living Room",
-    caption: "Spacious Living Area"
+    alt: "Living",
+    caption: "Zonă de Relaxare Spațioasă"
   },
   {
     src: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Master Bedroom",
-    caption: "Elegant Master Suite"
+    alt: "Dormitor Matrimonial",
+    caption: "Suită Matrimonială Elegantă"
   },
   {
     src: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Kitchen",
-    caption: "Fully Equipped Kitchen"
+    alt: "Bucătărie",
+    caption: "Bucătărie Complet Echipată"
   },
   {
     src: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Garden Terrace",
-    caption: "Beautiful Garden & Terrace"
+    alt: "Terasă și Grădină",
+    caption: "Grădină și Terasă Superbe"
   },
 ];
 
@@ -59,10 +59,10 @@ const Gallery = () => {
         {/* Heading */}
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Gallery
+            Galerie
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground">
-            Experience the <span className="text-gradient-gold">Elegance</span>
+            Descoperă <span className="text-gradient-gold">Eleganța</span>
           </h2>
         </div>
 

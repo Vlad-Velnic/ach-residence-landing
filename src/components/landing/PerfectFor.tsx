@@ -3,28 +3,28 @@ import { PartyPopper, Heart, Users, Home, Plane } from "lucide-react";
 const occasions = [
   {
     icon: PartyPopper,
-    title: "Birthday Parties",
-    description: "Celebrate in style with space for up to 20 guests"
+    title: "Petreceri de Aniversare",
+    description: "Sărbătorește cu stil într-un spațiu generos pentru până la 20 de invitați"
   },
   {
     icon: Heart,
-    title: "Anniversary Events",
-    description: "Create unforgettable memories in an intimate setting"
+    title: "Aniversări și Evenimente",
+    description: "Creează amintiri de neuitat într-un cadru intim și rafinat"
   },
   {
     icon: Users,
     title: "Team Building",
-    description: "Perfect venue for corporate retreats and team bonding"
+    description: "Locația perfectă pentru retrageri corporate și consolidarea echipei"
   },
   {
     icon: Home,
-    title: "Family Reunions",
-    description: "Bring the whole family together under one roof"
+    title: "Reuniuni de Familie",
+    description: "Adu întreaga familie împreună sub același acoperiș"
   },
   {
     icon: Plane,
-    title: "Weekend Getaways",
-    description: "Escape the ordinary for a luxurious retreat"
+    title: "Escapade de Weekend",
+    description: "Evadează din cotidian pentru o retragere de lux"
   },
 ];
 
@@ -35,10 +35,10 @@ const PerfectFor = () => {
         {/* Heading */}
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Occasions
+            Ocazii
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground">
-            Perfect <span className="text-gradient-gold">For</span>
+            Locul <span className="text-gradient-gold">Ideal Pentru</span>
           </h2>
         </div>
 

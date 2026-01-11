@@ -10,13 +10,13 @@ const Footer = () => {
         {/* CTA Section */}
         <div className="mb-16">
           <h2 className="font-serif text-3xl md:text-5xl font-bold mb-6">
-            <span className="text-foreground">Ready to Create</span>
+            <span className="text-foreground">Ești gata să creezi</span>
             <br />
-            <span className="text-gradient-gold">Unforgettable Memories?</span>
+            <span className="text-gradient-gold">Amintiri de Neuitat?</span>
           </h2>
           <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-            Book your stay at ACH Residence and experience luxury, comfort, 
-            and the perfect setting for your next celebration.
+            Rezervă-ți șederea la ACH Residence și experimentează luxul, confortul 
+            și cadrul perfect pentru următoarea ta celebrare.
           </p>
           <Button 
             size="lg" 
@@ -24,7 +24,7 @@ const Footer = () => {
             asChild
           >
             <a href="https://www.booking.com/hotel/ro/vila-cu-ciubar.ro.html" target="_blank" rel="noopener noreferrer">
-              Book on Booking.com
+              Rezervă Acum
               <ExternalLink className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
@@ -36,10 +36,10 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-muted-foreground text-sm">
           <p>
-            © {currentYear} <span className="text-gradient-gold font-semibold">ACH Residence</span>. All rights reserved.
+            © {currentYear} <span className="text-gradient-gold font-semibold">ACH Residence</span>. Toate drepturile rezervate.
           </p>
           <p>
-            Strada Narciselor 2, Răcăciuni, Romania
+            Strada Narciselor 2, Răcăciuni, România
           </p>
         </div>
       </div>

@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#gallery", label: "Gallery" },
-  { href: "#amenities", label: "Amenities" },
-  { href: "#perfect-for", label: "Occasions" },
-  { href: "#location", label: "Location" },
+  { href: "#about", label: "Despre" },
+  { href: "#gallery", label: "Galerie" },
+  { href: "#amenities", label: "Dotări" },
+  { href: "#perfect-for", label: "Ocazii" },
+  { href: "#location", label: "Locație" },
 ];
 
 const Navbar = () => {
@@ -56,7 +56,7 @@ const Navbar = () => {
               asChild
             >
               <a href="https://www.booking.com/hotel/ro/vila-cu-ciubar.ro.html" target="_blank" rel="noopener noreferrer">
-                Book Now
+                Rezervă Acum
               </a>
             </Button>
           </div>
@@ -90,7 +90,7 @@ const Navbar = () => {
               asChild
             >
               <a href="https://www.booking.com/hotel/ro/vila-cu-ciubar.ro.html" target="_blank" rel="noopener noreferrer">
-                Book Now
+                Rezervă Acum
               </a>
             </Button>
           </div>
